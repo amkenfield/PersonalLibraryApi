@@ -3,7 +3,7 @@
     public class Book
     {
        // title, author, publish date, pages, date acquired, rating, times read
-        public long Id { get; set; }
+        public long BookId { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
         public DateTime PublishDate { get; set; }
