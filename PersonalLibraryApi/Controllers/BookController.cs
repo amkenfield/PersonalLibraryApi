@@ -28,11 +28,18 @@ namespace PersonalLibraryApi.Controllers
             return await _bookContext.Books.ToListAsync();
         }
 
+        //[HttpGet]
+        //public IEnumerable<Book> GetBooks() 
+        //{ 
+        //    IEnumerable<Book> books = _bookContext.Books.ToList();
+        //    return books;
+        //}
+
         //// GET: api/Books/5
         //[HttpGet("{id}")]
         //public async Task<ActionResult<Book>> GetBook(long id)
         //{
-        //    var book = await _context.Books.FindAsync(id);
+        //    var book = await _bookContext.Books.FindAsync(id);
 
         //    if (book == null)
         //    {
